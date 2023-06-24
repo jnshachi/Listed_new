@@ -1,0 +1,40 @@
+@import './font.scss';
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  flex: 0.4;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  
+  span{
+    color: white;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    font-size: 5rem;
+  }
+}
+
+.right-container {
+  flex: 0.6;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-montserrat;
+  flex-direction: column;
+
+  b{
+    font-size: 2.5rem;
+  }
+  
+
+  .google-button{
+    margin: 1rem;
+  }
+}
